@@ -9,8 +9,13 @@ app.get("/", (req: Request, res: Response) => {
 
 // /api/whoami route
 app.get("/api/whoami", (req: Request, res: Response) => {
+  let ip = req.ip || "";
+  if (ip.startsWith("::ffff:")) {
+    ip = ip.substring(7); // remove "::ffff:" prefix
+  }
+
   res.json({
-    ipaddress: req.ip,
+    ipaddress: ip,
     language: req.headers["accept-language"],
     software: req.headers["user-agent"],
   });
