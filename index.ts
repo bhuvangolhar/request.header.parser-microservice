@@ -12,7 +12,7 @@ app.get("/api/whoami", (req: Request, res: Response) => {
   });
 });
 
-// Start the server
+// Starting the server
 app.listen(PORT, () => {
   console.log(
     `Request Header Parser Microservice is running on port ${PORT} 🚀`,
