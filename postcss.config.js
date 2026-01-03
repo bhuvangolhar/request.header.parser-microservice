@@ -3,7 +3,10 @@ export default {
 
   
   plugins: {
-    tailwindcss: {},
+    tailwi  
+    
+    
+    ndcss: {},
     autoprefixer: {},
    },
 }
