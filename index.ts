@@ -1,7 +1,7 @@
 import express, { Request, Response } from "express";
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = pro   cess.env.PORT || 3000;
 
 // \/api/whoami route
 app.get("/api/whoami", (req: Request, res: Response) => {
