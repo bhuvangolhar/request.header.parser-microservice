@@ -2,7 +2,7 @@
   "name": "request-header-parser",
   "version": "1.0.0",
   "description": "Request Header Parser Microservice",
-  "main": "index.ts",
+  "main":        "index.ts",
   "scripts":  {
     "build": "tsc",
     "start":  "node dist/index.js",
