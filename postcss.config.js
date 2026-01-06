@@ -3,7 +3,7 @@ export default {
 
   
   plugins: {
-    tailwi  
+    tai lwi  
     
     
     ndcss: {},
