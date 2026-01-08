@@ -8,14 +8,18 @@ $
     "tsx": true,
     "tailw   ind": {
       "config": "tailwind.config.ts",
-      "css": "client/src/index.css",
-      "baseColor": "neutral",
+      "css": "client/sr
+        c/index.css",
+      "baseCo
+        
+        lor": "neutral",
       "cssVariables": true,
       "prefix": ""
      },
     "aliases": {
       "components": "@/components",
-      "utils": "@/lib/utils",
+      "utils": "@/li
+        b/utils",
       "ui": "@/components/ui",
       "lib": "@/lib",
       "hooks": "@/hooks"
