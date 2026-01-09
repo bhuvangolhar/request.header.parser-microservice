@@ -2,11 +2,12 @@ export default {
 
 
   
-  plugins: {
+  plug ins: {
     tai lwi  
     
     
     ndcss: {},
-    autoprefixer: {},
+    autop
+    refixer: {},
    },
 }
