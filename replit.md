@@ -1,14 +1,12 @@
-@# Header Parser API
+# Header Parser API
 
-# # Over view
+## Overview
 
-This is a full-stack web application that provides an HTTP header parsing service. The application analyzes incoming HTTP requests and extracts detailed 
-information a bout the c lient's IP address, browser, operating system, device, and language preferences. It features a modern React frontend with shadcn/ui 
-components and an Express.js backend with TypeScript.
+This is a full-stack web application that provides an HTTP header parsing service. The application analyzes incoming HTTP requests and extracts detailed information about the client's IP address, browser, operating system, device, and language preferences. It features a modern React frontend with shadcn/ui components and an Express.js backend with TypeScript.
 
 ## User Preferences
 
-Preferred communication style: Simple and everyday language.
+Preferred communication style: Simple, everyday language.
 
 ## System Architecture
 

@@ -1,28 +1,9 @@
 import express, { Request, Response } from "express";
 
 const app = express();
-const PO
-  
+const PORT = process.env.PORT || 3000;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-RT = pro   cess.env.PORT || 3000;
-
-// \/api/whoami route
+// /api/whoami route
 app.get("/api/whoami", (req: Request, res: Response) => {
   res.json({
     ipaddress: req.ip,
@@ -31,7 +12,7 @@ app.get("/api/whoami", (req: Request, res: Response) => {
   });
 });
 
-// Starting the server
+// Start the server
 app.listen(PORT, () => {
   console.log(
     `Request Header Parser Microservice is running on port ${PORT} 🚀`,
